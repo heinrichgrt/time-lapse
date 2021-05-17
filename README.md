@@ -1,4 +1,5 @@
 # time-lapse
+# WIP
 A poor mans time-lapse with open source tools
 
 # What it does
@@ -7,4 +8,4 @@ This thing here, will extract the recording time from each picture and calculate
 For this to work, the images need to have a timestamp. The script does not do any resizing. This is much easyer if done during image export. 
 
 usage:
-./timelapse.sh -o outputir -s sourcdir 
+./timelapse.sh -o outputdir -s sourcedir -d output_duration_in_seconds
